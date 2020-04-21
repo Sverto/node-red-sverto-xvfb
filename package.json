@@ -1,0 +1,14 @@
+{
+    "name" : "node-red-sverto-xvfb",
+    "author": "Sverto",
+    "description": "Adds Xvfb start and stop nodes to Node-Red.",
+    "version": "1.0.1",
+    "node-red" : {
+        "nodes": {
+            "node-red-xvfb": "main.js"
+        }
+    },
+    "dependencies": {
+        "xvfb": "*"
+    }
+}
