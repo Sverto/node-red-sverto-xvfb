@@ -6,8 +6,8 @@ Tested on Node-Red version 0.20.5.
 - `xvfb` to be present (ex: sudo apt-get install xvfb)
 
 ## Installation
-- Copy directory `node-red-sverto-xvfb` into your Node-Red modules folder `~/.node-red/node_modules`
-- Restart Node-Red:
+- Copy the content into your Node-Red modules folder ~/.node-red/node_modules/`node-red-sverto-xvfb`
+- Restart Node-Red for the changes to take effect:
 ```bash
 sudo systemctl restart nodered
 ```
